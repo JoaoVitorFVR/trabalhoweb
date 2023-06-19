@@ -1,16 +1,16 @@
 var cartas = [
-    { nome: "um", forca: "10", energia: "11" },
-    { nome: "dois", forca: "20", energia: "22" },
-    { nome: "tres", forca: "30", energia: "33" },
-    { nome: "quatro", forca: "40", energia: "44" },
-    { nome: "cinco", forca: "50", energia: "55" },
-    { nome: "seis", forca: "60", energia: "66" },
-    { nome: "sete", forca: "70", energia: "77" },
-    { nome: "oito", forca: "80", energia: "88" },
-    { nome: "nove", forca: "90", energia: "99" },
-    { nome: "dez", forca: "100", energia: "1010" },
-    { nome: "onze", forca: "110", energia: "1111" },
-    { nome: "doze", forca: "120", energia: "1212" }
+    { nome: "Um", forca: 3, energia: 2 },
+    { nome: "Dois", forca: 2, energia: 3 },
+    { nome: "Tres", forca: 1, energia: 1 },
+    { nome: "Quatro", forca: 4, energia: 3 },
+    { nome: "Cinco", forca: 1, energia: 2 },
+    { nome: "Seis", forca: 2, energia: 2},
+    { nome: "Sete", forca: 5, energia: 4 },
+    { nome: "Oito", forca: 3, energia: 3 },
+    { nome: "Nove", forca: 2, energia: 4 },
+    { nome: "Dez", forca: 3, energia: 5 },
+    { nome: "Onze", forca: 6, energia: 6 },
+    { nome: "Doze", forca: 4, energia: 4 }
   ];
 
   var cartaPlayer;
