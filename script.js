@@ -141,10 +141,17 @@ function limpa(){
     ListaRestantesBot.innerHTML = '';
 }
 
+function reset(){
+    location.reload();
+}
+
 function jogo(){
     player();
     bot();
     botaoInicio.removeEventListener('click', jogo);
+
+    const botaoreset = document.getElementById('reset');    
+    botaoreset.addEventListener('click', reset);
 }
 
 function embaralhar(restantes) {
