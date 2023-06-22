@@ -75,7 +75,6 @@ function bot(){
     return restantesbot;
 }
 
-
 function listaplayer(carta, restante){
     
     const ListaCartasPlayer = document.getElementById('cartas-player');
