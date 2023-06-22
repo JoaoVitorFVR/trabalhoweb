@@ -17,7 +17,6 @@ body{
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
 
 .deck{
@@ -87,8 +86,6 @@ body{
     background-color: #525574;
 }
 
-
-
 .numero{
     font-size: 4rem;
     font-family: 'Audiowide', cursive;
@@ -97,5 +94,4 @@ body{
 .energia{
     font-size: 3rem;
     font-family: 'Audiowide', cursive; 
-
 }

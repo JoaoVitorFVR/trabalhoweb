@@ -192,7 +192,6 @@ botaoInicio.addEventListener('click', jogo);
 const proximarodada = document.getElementById('rodada');
 proximarodada.addEventListener('click', proxrodada);
 
-
 function corCard(){
     const cores = [
         '#ffa446',
