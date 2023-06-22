@@ -44,6 +44,7 @@ body{
 
 .card:hover{
     scale: 1.5;
+    rotate: 360deg;
 }
 
 .a{
