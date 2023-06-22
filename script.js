@@ -75,6 +75,7 @@ function bot(){
     return restantesbot;
 }
 
+
 function listaplayer(carta, restante){
     
     const ListaCartasPlayer = document.getElementById('cartas-player');
@@ -190,3 +191,19 @@ botaoInicio.addEventListener('click', jogo);
 
 const proximarodada = document.getElementById('rodada');
 proximarodada.addEventListener('click', proxrodada);
+
+
+function corCard(){
+    const cores = [
+        '#ffa446',
+        '#ffa588',
+        '#d62957',
+        '#1693a5',
+        '#572e4f',
+        '#6cb6a5',
+        '#51615b',
+        '#191f04',
+        '#7abf66',
+        '#525574'
+    ];
+}

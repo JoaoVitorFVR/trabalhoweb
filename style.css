@@ -2,6 +2,100 @@ main {
     height: 1000px;
 }
 
-p{
-    font-weight: bold;
+span{
+    color: white;
+}
+
+body{
+    background-color: rgb(31, 40, 47);
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.deck{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: .8em;
+}
+
+.card{
+    width: 7rem;
+    height: 8.1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+
+    border-radius: 10px;
+
+    transition: .5s;
+}
+
+.card:hover{
+    scale: 1.5;
+}
+
+.a{
+    background-color: #ffa446;
+}
+
+.b{
+    background-color: #ffa588;
+}
+
+.c{
+    background-color: #d62957;
+}
+
+.d{
+    background-color: #1693a5;
+}
+
+.e{
+    background-color: #572e4f;
+}
+
+.f{
+    background-color: #6cb6a5;
+}
+
+.g{
+    background-color: #51615b;
+}
+
+.h{
+    background-color: #191f04;
+}
+
+.i{
+    background-color: #7abf66;
+}
+
+.j{
+    background-color: #525574;
+}
+
+
+
+.numero{
+    font-size: 4rem;
+    font-family: 'Audiowide', cursive;
+}
+
+.energia{
+    font-size: 3rem;
+    font-family: 'Audiowide', cursive; 
+
 }
