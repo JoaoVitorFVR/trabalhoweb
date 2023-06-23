@@ -10,6 +10,37 @@ body{
     background-color: rgb(31, 40, 47);
 }
 
+.tabuleiro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:0.8em;
+    padding-bottom: 0.8em;
+}
+
+.lugar {
+    width: 10rem;
+    height: 10rem;
+    background-color: rgb(41, 52, 61);
+}
+
+.locais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:0.8em;
+    padding-bottom: 0.8em;
+}
+
+.local {
+    width: 15rem;
+    height: 15rem;
+    background-color: rgb(35, 45, 53);
+}
 
 .container{
     display: flex;
@@ -39,11 +70,11 @@ body{
 
     border-radius: 10px;
 
-    transition: .5s;
+    transition: .3s;
 }
 
-.card:hover{
-    scale: 1.5;
+.scaled{
+    scale: 1.2;
 }
 
 .a{
@@ -86,7 +117,7 @@ body{
     background-color: #525574;
 }
 
-.numero{
+.forca{
     font-size: 4rem;
     font-family: 'Audiowide', cursive;
 }
