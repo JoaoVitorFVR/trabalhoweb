@@ -73,8 +73,9 @@ body{
     transition: .3s;
 }
 
-.scaled{
-    scale: 1.2;
+.card:hover{
+    scale: 1.5;
+    rotate: 360deg;
 }
 
 .a{
