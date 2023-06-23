@@ -1,0 +1,46 @@
+*{
+    font-family: 'Audiowide', cursive;
+}
+
+
+body{
+    background-color: rgb(31, 40, 47);
+
+}
+
+.title{
+    
+    color: white;
+}
+
+.container{
+    background-color: rgb(35, 45, 53);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .7rem;
+
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+
+    padding: 1.5rem;
+;
+}
+
+div.container>a{
+    text-decoration: none;
+    color: white;
+}
+
+.div-btn{
+    transition: 8s;
+}
+
+.div-btn:hover{
+    scale: 1.3;
+}
+
